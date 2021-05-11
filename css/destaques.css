@@ -5,7 +5,7 @@
     padding-bottom: 2rem;
 }
 
-.destaques__tituto {
+.destaques__titulo {
     color: var(--cinza-escuro);
     font-weight: 700;
     font-size: 1.5rem;
@@ -44,6 +44,5 @@
 
     border-color: var(--vermelho-forte);
 
-    margin: o auto;
-
+    margin: 0 auto;
 }

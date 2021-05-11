@@ -4,8 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <title> Home | Apeperia</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Home | Apeperia</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
         rel="stylesheet">
@@ -19,6 +18,7 @@
     <link href="css/planos.css" rel="stylesheet">
     <link href="css/contato.css" rel="stylesheet">
     <link href="css/institucional.css" rel="stylesheet">
+    <link href="css/rodape.css" rel="stylesheet">
 </head>
 
 <body>
@@ -43,11 +43,13 @@
             <a href="#" class="chamada__botao botao">Conheça os planos</a>
         </section>
         <section class="destaques container">
-            <h2 class="destaques__tituto">Destaques</h2>
+            <h2 class="destaques__titulo">Destaques</h2>
             <a href="#">
                 <figure class="destaques__painel">
-                    <img src="img/comecando-criar-logotipo.png" alt="" class="destaques__painel-imagem">
-                    <figcaption class="destaques__painel-texto">Painel do post sobre criação de logotipo</figcaption>
+                    <img src="img/comecando-criar-logotipo.png" alt="Painel do post sobre criação de logotipo"
+                        class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">Conheça as primeiras etapas para a criação de um
+                        logotipo</figcaption>
                 </figure>
             </a>
             <a href="#">
@@ -145,16 +147,41 @@
         </section>
         <section class="institucional container">
             <h2 class="institucional__titulo">Institucional</h2>
-            <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
-            <address class="institucional__endereco">Rua Vergueiro, 3185</br>Vila Mariana, São Paulo
-            <article class="institucional__contato">
-                <p><a href="tel:+551155712751" class="institucional__contato-telefone">(11) 5571-2751</a> ou <a href="mailto:contato@apeperia.com" class="institucional-email">contato@apeperia.com</a></p>
-            </article>
-            </address>
-            <video src="img/formacao-java.mp4"class="institucional__video" controls></video>
+            <div class="institucional__conteudo">
+                <div class="institucional__informacoes">
+                    <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
+                <address class="institucional__endereco">
+                    Rua Vergueiro, 3185</br>
+                    Vila Mariana, São Paulo
+                    <article class="institucional__contato">
+                        <p><a href="tel:+551155712751" class="institucional__contato-telefone">(11) 5571-2751</a> ou <a
+                                href="mailto:contato@apeperia.com"
+                                class="institucional__contato-email">contato@apeperia.com</a></p>
+                    </article>
+                </address>
+                </div>                
+                <video src="img/formacao-java.mp4" class="institucional__video" controls></video>
+            </div>
         </section>
-
     </main>
+    <footer class="rodape container">
+        <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="rodape__logo">
+        <ul class="rodape__social">
+            <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do twitter"></a></li>
+            <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+        </ul>
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="#">Sobre</a></li>
+                <li class="rodape__link"><a href="#">Planos</a></li>
+                <li class="rodape__link"><a href="#">Blog</a></li>
+                <li class="rodape__link"><a href="#">Destaques</a></li>
+                <li class="rodape__link"><a href="#">Institucional</a></li>
+                <li class="rodape__link"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
